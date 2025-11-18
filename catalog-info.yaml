@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vrvrr
+  description: Repository created via Backstage
+  links:
+  - url: https://github.com/georg-vv/vrvrr
+    title: Repository
+    icon: dashboard
+  annotations:
+    github.com/project-slug: georg-vv/vrvrr
+spec:
+  type: service
+  owner: user:default/g.schwarzberlin
+  lifecycle: experimental
